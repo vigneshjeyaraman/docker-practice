@@ -1,9 +1,9 @@
 from django.db import models
-
+from users.models import BaseModel
 # Create your models here.
 from users.models import User
 
-class Todo(models.Model):
+class Todo(BaseModel):
     """
         Todo model to hold todo data
     """
